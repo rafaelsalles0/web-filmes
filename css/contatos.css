@@ -1,0 +1,125 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-color: #dddddd;
+  }
+li {
+    float: left;
+    display: inline;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+  }
+  
+.active {
+    background-color: #04AA6D;
+}
+  /* Responsividade Mobile */
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}  
+.footer {
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #04AA6D;
+    opacity: 50%;
+}
+.Principal{
+    text-align: center;
+    font-size: 20px;
+}
+label{
+    display: inline-block;
+    clear: left;
+    width: 100px;
+    text-align: center;
+}
+input {
+    display: inline-block;
+    text-align: right;
+}
+.Nome1{
+    width: 400px;
+    height: 25px;
+    margin-bottom: 20px;
+
+
+}
+.E-mail{
+    width: 400px;
+    height: 25px;
+    margin-bottom: 20px;
+
+ 
+}
+.Assunto1{
+    width: 400px;
+    height: 25px;
+    margin-bottom: 20px;
+
+}
+#Mensagem{
+    resize: none;
+    width: 400px;
+    height: 250px;
+}
+.EnviarE-mail{
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+button{
+    width: 100px;
+    height: 30px;
+}
+button:focus{
+    background-color:cyan;
+}
+body{
+    background-color: #000000;
+    background-size: cover;
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-left: 50px;
+    color: white;
+}
+a.button{
+    width: 250px;
+    height: 20px;
+    text-align: center;
+}
+.logo{
+    height: 44px;
+    padding-right: 6px;
+    padding-left: 5px;
+}

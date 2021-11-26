@@ -1,0 +1,131 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-color: #dddddd;
+  }
+li {
+    float: left;
+    display: inline;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+  }
+  
+.active {
+    background-color: #04AA6D;
+}
+  /* Responsividade Mobile */
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}  
+.footer {
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #04AA6D;
+    opacity: 50%;
+}
+.Principal{
+    text-align: center;
+    margin-top: 70px;
+}
+.A007{
+    margin-bottom: 20px;
+}
+.A007T{
+    margin-bottom: 15px;
+}
+.AsBranq{
+    margin-bottom: 20px;
+}
+.AsBranqT{
+    margin-bottom: 15px;
+}
+.Batman{
+    margin-bottom: 20px;
+}
+.BatmanT{
+    margin-bottom: 15px;
+}
+.BladeRun{
+    margin-bottom: 20px;
+}
+.BladeRunT{
+    margin-bottom: 15px;
+}
+.Gen{
+    margin-bottom: 20px;
+}
+.GenteGT{
+    margin-bottom: 15px;
+}
+.Matrix{
+    margin-bottom: 20px;
+}
+.MatrixT{
+    margin-bottom: 15px;
+}
+.MaeP{
+    margin-bottom: 20px;
+}
+.MaePT{
+    margin-bottom: 15px;
+}
+.SenhorDosAneis{
+    margin-bottom: 20px;
+}
+.SenhorDosAneisT{
+    margin-bottom: 15px;
+}
+.StarWars{
+    margin-bottom: 20px;
+}
+.StarWarsT{
+    margin-bottom: 15px;
+}
+.Tron{
+    margin-bottom: 20px;
+}
+.TronT{
+    margin-bottom: 15px;
+}
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+}
+.logo{
+    height: 44px;
+    padding-right: 6px;
+    padding-left: 5px;
+}

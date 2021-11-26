@@ -1,0 +1,104 @@
+body{
+    background-color: #000000;
+    background-size: cover;
+    font-family: 'Roboto Mono',monospace;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+
+.Principal{
+    font-size: 20px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.Rafael{
+    width: 340px;
+    height: 340px;
+}
+
+.Rafa1{
+    height: 320px;
+    width:320px;
+    border-radius: 50%;
+    border: 10px solid brown;   
+}
+.RafaM{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    border: 10px solid blue;
+}
+.InfoRafa{
+
+    width: 710px;
+    height: 320px;
+    color: white;
+    opacity: 80%;
+}
+.InfoRafael{
+    color: white;
+    opacity: 80%;
+}
+.footer {
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #04AA6D;
+    opacity: 50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-color: #dddddd;
+  }
+li {
+    float: left;
+    display: inline;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+  }
+  
+.active {
+    background-color: #04AA6D;
+}
+  /* Responsividade Mobile */
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}  
+h1{
+    color: white;
+}
+.logo{
+    height: 44px;
+    padding-right: 6px;
+    padding-left: 5px;
+}

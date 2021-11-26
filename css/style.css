@@ -1,0 +1,167 @@
+.Nome {
+    position: relative;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 0px;
+    font-size: 20px;
+}
+.End {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    margin-right: 35px;
+    position: relative;
+    font-size: 20px;
+}
+.Email{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.Cidade{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 13px;
+    font-size: 20px;
+}
+.Estados{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.Sexo{
+    position: relative;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.Filme{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.Filme > .Acao{
+    position: relative;
+    margin-top: 0x;
+    margin-right: 0px;
+    font-size: 20px;
+}
+.Filme  .Aventura{
+    margin-top: 0px;
+    margin-left: 45px;
+    font-size: 20px;
+    
+}
+.Filme .Comedia{
+    position: relative;
+    margin-left: 35px;
+    font-size: 20px;
+}
+.Filme .Suspense{
+    position: relative;
+    margin-left: 45px;
+    font-size: 20px;
+}
+.Filme .Drama{
+    position: relative;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.Filme .Romance{
+    position: relative;
+    margin-left: 32px;
+    font-size: 20px;
+}
+.Filme .Terror{
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.Usuario{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.Senha{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.Nome1{
+    position: relative;
+    width: 180px;
+    height: 25px;
+}
+.Endereço1{
+    position: relative;
+    width: 180px;
+    height: 25px;
+}
+.E-mail{
+    position: relative;
+    width: 180px;
+    height: 25px;    
+}
+.Cidade1{
+    position: relative;
+    width: 180px;
+    height: 25px;
+}
+.Estados1{
+    position: relative;
+    width: 180px;
+    height: 25px;
+}
+.Masc{
+    position: relative;
+    width: 25px;
+    height: 13px;
+}
+.Feminino{
+    position: relative;
+    width: 25px;
+    height: 13px;
+}
+.Outro{
+    position: relative;
+    width: 25px;
+    height: 13px;
+}
+.Usuario1{
+    width: 250px;
+    height: 25px;
+}
+.Senha1{
+    width: 250px;
+    height: 25px;
+}
+.Reset{
+    height: 40px;
+}
+.Cadastro{
+    height: 40px;
+}
+.Limpar{
+    height: 40px;
+}
+.footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #04AA6D;
+    opacity: 50%;
+}
+h1{
+    color: white;
+}
