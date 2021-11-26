@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <ul class="topnav">
+        <li><img src="img/webFilmesLogo1.png" class="logo"></li>
+        <li><a href="./paginaPrincipal.html">Principal</a></li>
+        <li><a href="#news">Filmes</a></li>
+        <li><a href="#contact">Trailers</a></li>
+        <li><a href="#contact">Trilha Sonara</a></li>
+        <li><a href="#contact">Contatos</a></li>
+        <li style="float:right"><a class="active" href="#about">Sobre</a></li>
+      </ul>
+
+      <!-- <img src="img/webFilmesLogo1.png" class="logo1"> -->
+      
+      <h1 class="title">Ação:</h1>
+
+      <div class="box">
+        <div><img src="img/007jpg.jpg" class="filme007">
+            
+        </div>
+        <div><img src="img/Batman.jpg" class="batman">
+          
+        </div>
+        <div><img src="img/Senhor Dos Anéis.jpg" class="senhorDosAneis">
+        </div>
+          
+          
+      </div>
+      </div>
+
+
+
+      <div class="footer">
+        Rafael Salles e Rafael Ferreira - Instituto Federal do Sul de Minas Gerais - 2021
+    </div>
+<style>
+
+
+.title{
+  margin-top: 100px;
+  color: white;
+  margin-bottom: 70px;
+}
+
+/* design filmes */
+.box {
+display: flex;
+margin: 50px;
+justify-content: center;
+margin-bottom: 200px;
+}
+@media(max-width:1000px){
+.box {
+  display: block;
+  margin: 50px;
+  text-align: center;
+/* align-items: center; */
+}
+}
+
+
+
+.filme007{
+height: 365px;
+}
+.batman{
+height: 365px;
+}
+
+.senhorDosAneis{
+  height: 365px;
+}
+
+
+/* CSS footer e header */
+.footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #04AA6D;
+    opacity: 50%;
+}
+
+.logo1{
+    /* height: 44px; */
+    margin-top: 70px;
+
+}
+
+.logo{
+    height: 44px;
+    padding-right: 6px;
+    padding-left: 5px;
+}
+
+body {
+        font-family: 'Roboto Mono',monospace;
+        text-align:center;
+        background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png');
+        background-color: #000000;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+
+li {
+  float: left;
+  display: inline;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  background-color: #dddddd;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+/* Responsividade Mobile */
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+</style>
+
+</body>
+</html>

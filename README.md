@@ -1,2 +1,2 @@
-# web-filmes
-Locadora online
+# rafinhabj.github.io
+projeto para a disciplina Programação Web 

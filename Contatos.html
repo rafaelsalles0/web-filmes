@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contatos.css">
+    <title>Contato</title>
+</head>
+<body>
+    <ul class="topnav">
+        <li><img src="img/webFilmesLogo1.png" class="logo"></li>
+        <li><a href="./paginaPrincipal.html">Principal</a></li>
+        <li><a href="./principalFilmes.html">Filmes</a></li>
+        <li><a href="./trailers.html">Trailers</a></li>
+        <li><a href="./TrilhaSonora.html">Trilha Sonara</a></li>
+        <li><a href="./Contatos.html">Contatos</a></li>
+        <li style="float:right"><a class="active" href="./Sobre.html">Sobre</a></li>
+      </ul>
+    <div class="Principal">
+        <h1>Contato</h1> 
+
+        <form action="javascript:alert('Enviado com sucesso')" method="dialog">
+
+            <div class="Nome">
+            <label for="Nome" class="Nome12">Nome:</label>
+            <input type="text" class="Nome1">
+            </div>
+
+            <div class="Email">
+                <label for="E-mail">E-mail:</label>
+                <input type="text" class="E-mail">
+            </div>
+
+            <div class="Assunto">
+                <label for="Assunto">Assunto:</label>
+                <input type="text" class="Assunto1">
+            </div>
+
+            <div class="Mensagem">
+                <label for="Mensagem" class="Mensagem1">Mensagem:</label>
+                <textarea name="Mensagem" id="Mensagem" cols="30" rows="10" ></textarea>
+                
+            </div>
+
+            <div class="EnviarE-mail">
+                <button onclick="window.location='/paginaPrincipal.html'">Enviar E-mail</button>
+            </div>
+            
+
+        </form>
+        <div class = "footer">
+            Rafael Salles e Rafael Ferreira - Instituto Federal do Sul de Minas Gerais - 2021
+        </div>
+    </div>
+
+</body>
+</html>

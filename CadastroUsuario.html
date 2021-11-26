@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Usuário</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Usuário</h1>
+
+        <form action="./index.html">
+            <div class="Nome">
+            <label for="Nome">Nome:</label>
+            <input type="text" id="Nome" class="Nome1">
+            </div>
+
+            <div class="End">
+            <label for="Endereço">Endereço:</label>
+            <input type="text" id="Endereço" class="Endereço1">
+            </div>
+
+            <div class="Email">
+            <label for="Email">E-mail:</label>
+            <input type="text" id="E-mail" class="E-mail">
+            </div>
+
+            <div class="Cidade">
+            <label for="Cidade">Cidade:</label>
+            <input type="text" id="Cidade" class="Cidade1">
+            </div>
+
+            <div class="Estados">
+            <label for="Estados">Estado:</label>
+            <select name="Estados" class="Estados1">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+            </div>
+
+            <div class="Sexo">
+            <label for="Sexo">Sexo:</label>
+            <input type="radio" value="Masculino" name="Masculino" id ="Masc" class="Masc">
+            <label for="Masculino">Masculino</label>
+
+            <input type="radio" value="Feminio" name="Feminio" id="Fem" class="Feminino">
+            <label for="Feminio">Feminino</label>
+
+            <input type="radio" name="Outro" id="Outro" class="Outro">
+            <label for="Outro">Outro</label>
+            </div>
+
+            <div class="Filme">
+            Escolha os filme que você mais gosta
+            <br>
+            <div class="Acao">
+            <input type="checkbox" name="Acao" id="Acao" class="Acao">
+            <label for="Ação">Ação</label>
+            </div>
+
+            <div class="Aventura">
+            <input type="checkbox" name="Aventura" id="Aventura">
+            <label for="Aventura">Aventura</label>
+            </div>
+
+            <div class="Comedia">
+            <input type="checkbox" name="Comedia" id="Comedia">
+            <label for="Comedia">Comédia</label>
+            </div>
+
+            <div class="Suspense">
+            <input type="checkbox" name="Suspense" id="Suspense">
+            <label for="Suspense">Suspense</label>
+            </div>
+            <div class="Drama">
+            <input type="checkbox" name="Drama" id="Drama">
+            <label for="Drama">Drama</label>
+            </div>
+
+            <div class="Romance">
+            <input type="checkbox" name="Romance" id="Romance">
+            <label for="Romance">Romance</label>
+            </div>
+
+            <div class="Terror">
+            <input type="checkbox" name="Terror" id="Terror">
+            <label for="Terror">Terror</label>
+            </div>
+
+            </div>
+
+            <div class =Usuario>            
+            <label for="Usuario">Usario</label>
+            <input type="text" id="Usuario" class="Usuario1">
+            </div>
+
+            <div class="Senha">
+            <label for="Senha">Senha</label>
+            <input type="password" id="Senha" class="Senha1">
+            </div>
+
+            <input type="reset" name="Cancelar" id="Cancelar" value="Cancelar" class="Reset">
+            <input type="reset" name="Limpar" id="Limpar" value="Limpar" class="Limpar">
+            
+            <input type="submit" name="Cadastro" id="Cadastro" value="Cadastrar" class="Cadastro">
+            <br>
+            </select>
+        </form>
+        <div class = "footer">
+            Rafael Salles e Rafael Ferreira - Instituto Federal do Sul de Minas Gerais - 2021
+        </div>
+    </div> 
+    <style>
+        .container{
+        text-align:center;
+        position: relative;  
+
+            }
+        body {
+            font-family: 'Roboto Mono',monospace;
+            text-align:center;
+            background-image: url('https://th.bing.com/th/id/R.c8f186b313ca63a791d640f8fac722dd?rik=nm9ZXXcuM89SfQ&pid=ImgRaw&r=0');
+            background-color: #000000;
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+    </style>   
+</body>
+</html>
